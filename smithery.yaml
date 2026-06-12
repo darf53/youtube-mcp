@@ -1,4 +1,4 @@
-# Smithery.ai configuration for @sfiorini/youtube-mcp
+# Smithery.ai configuration for @darf53/youtube-mcp
 runtime: "typescript"
 startCommand:
   type: stdio

@@ -220,7 +220,7 @@ The package supports multiple deployment methods for different use cases:
 ### CLI Deployment (for LibreChat, etc.)
 
 ```bash
-npx -y @sfiorini/youtube-mcp@x.x.x
+npx -y @darf53/youtube-mcp@x.x.x
 ```
 
 Uses the CLI entry point defined in the `bin` field of package.json.
@@ -230,7 +230,7 @@ Uses the CLI entry point defined in the `bin` field of package.json.
 The package exports a `createServer` function that follows Smithery patterns:
 
 ```typescript
-import createServer from '@sfiorini/youtube-mcp';
+import createServer from '@darf53/youtube-mcp';
 const server = createServer({ config });
 ```
 
@@ -239,12 +239,12 @@ const server = createServer({ config });
 For custom integrations, import the server function directly:
 
 ```typescript
-import createServer from '@sfiorini/youtube-mcp';
+import createServer from '@darf53/youtube-mcp';
 ```
 
 ## Build and Distribution
 
-The project is published as an npm package (`@sfiorini/youtube-mcp`) and can be installed globally or used via npx. The build process:
+The project is published as an npm package (`@darf53/youtube-mcp`) and can be installed globally or used via npx. The build process:
 
 1. TypeScript compiles to JavaScript in `dist/` directory
 2. Both CLI (`dist/cli.js`) and main entry point (`dist/index.js`) are generated

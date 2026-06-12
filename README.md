@@ -1,6 +1,6 @@
 # YouTube MCP Server
 
-[![smithery badge](https://smithery.ai/badge/@sfiorini/youtube-mcp)](https://smithery.ai/server/@sfiorini/youtube-mcp)
+[![smithery badge](https://smithery.ai/badge/@darf53/youtube-mcp)](https://smithery.ai/server/@darf53/youtube-mcp)
 
 A Model Context Protocol (MCP) server implementation for YouTube, enabling AI language models to interact with YouTube content through a standardized interface. Optimized for **90% Smithery quality score** with comprehensive resources, prompts, and flexible configuration.
 
@@ -52,7 +52,7 @@ A Model Context Protocol (MCP) server implementation for YouTube, enabling AI la
 1. Install the package:
 
 ```bash
-npm install -g @sfiorini/youtube-mcp
+npm install -g @darf53/youtube-mcp
 ```
 
 1. Add to your Claude Desktop configuration (`~/Library/Application Support/Claude/claude_desktop_config.json` on macOS or `%APPDATA%\Claude\claude_desktop_config.json` on Windows):
@@ -79,7 +79,7 @@ Add this to your Claude Desktop configuration:
   "mcpServers": {
     "youtube": {
       "command": "npx",
-      "args": ["-y", "@sfiorini/youtube-mcp"],
+      "args": ["-y", "@darf53/youtube-mcp"],
       "env": {
         "YOUTUBE_API_KEY": "your_youtube_api_key_here"
       }
@@ -90,10 +90,10 @@ Add this to your Claude Desktop configuration:
 
 ### Installing via Smithery
 
-To install YouTube MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@sfiorini/youtube-mcp):
+To install YouTube MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@darf53/youtube-mcp):
 
 ```bash
-npx -y @smithery/cli@latest install @sfiorini/youtube-mcp --client claude
+npx -y @smithery/cli@latest install @darf53/youtube-mcp --client claude
 ```
 
 ## Configuration
@@ -107,7 +107,7 @@ Set the following environment variables:
 
 For one-click installation, click one of the install buttons below:
 
-[![Install with NPX in VS Code](https://img.shields.io/badge/VS_Code-NPM-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=youtube&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40sfiorini%2Fyoutube-mcp%22%5D%2C%22env%22%3A%7B%22YOUTUBE_API_KEY%22%3A%22%24%7Binput%3AapiKey%7D%22%7D%7D&inputs=%5B%7B%22type%22%3A%22promptString%22%2C%22id%22%3A%22apiKey%22%2C%22description%22%3A%22YouTube+API+Key%22%2C%22password%22%3Atrue%7D%5D) [![Install with NPX in VS Code Insiders](https://img.shields.io/badge/VS_Code_Insiders-NPM-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=youtube&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40sfiorini%2Fyoutube-mcp%22%5D%2C%22env%22%3A%7B%22YOUTUBE_API_KEY%22%3A%22%24%7Binput%3AapiKey%7D%22%7D%7D&inputs=%5B%7B%22type%22%3A%22promptString%22%2C%22id%22%3A%22apiKey%22%2C%22description%22%3A%22YouTube+API+Key%22%2C%22password%22%3Atrue%7D%5D&quality=insiders)
+[![Install with NPX in VS Code](https://img.shields.io/badge/VS_Code-NPM-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=youtube&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40darf53%2Fyoutube-mcp%22%5D%2C%22env%22%3A%7B%22YOUTUBE_API_KEY%22%3A%22%24%7Binput%3AapiKey%7D%22%7D%7D&inputs=%5B%7B%22type%22%3A%22promptString%22%2C%22id%22%3A%22apiKey%22%2C%22description%22%3A%22YouTube+API+Key%22%2C%22password%22%3Atrue%7D%5D) [![Install with NPX in VS Code Insiders](https://img.shields.io/badge/VS_Code_Insiders-NPM-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=youtube&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40darf53%2Fyoutube-mcp%22%5D%2C%22env%22%3A%7B%22YOUTUBE_API_KEY%22%3A%22%24%7Binput%3AapiKey%7D%22%7D%7D&inputs=%5B%7B%22type%22%3A%22promptString%22%2C%22id%22%3A%22apiKey%22%2C%22description%22%3A%22YouTube+API+Key%22%2C%22password%22%3Atrue%7D%5D&quality=insiders)
 
 ### Manual Installation
 
@@ -129,7 +129,7 @@ Add the following JSON block to your User Settings (JSON) file in VS Code. You c
     "servers": {
       "youtube": {
         "command": "npx",
-        "args": ["-y", "@sfiorini/youtube-mcp"],
+        "args": ["-y", "@darf53/youtube-mcp"],
         "env": {
           "YOUTUBE_API_KEY": "${input:apiKey}"
         }
@@ -154,7 +154,7 @@ Optionally, you can add it to a file called `.vscode/mcp.json` in your workspace
   "servers": {
     "youtube": {
       "command": "npx",
-      "args": ["-y", "@sfiorini/youtube-mcp"],
+      "args": ["-y", "@darf53/youtube-mcp"],
       "env": {
         "YOUTUBE_API_KEY": "${input:apiKey}"
       }
